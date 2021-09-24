@@ -1,0 +1,11 @@
+
+  .hero-image {
+    width: 400px;
+  }
+  @media (max-width: 600px) {
+   
+    .hero-image {
+      width: inherit!important;
+      padding: 50px;
+    }
+  }
